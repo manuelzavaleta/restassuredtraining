@@ -4,15 +4,14 @@
     <list default="true" id="c9dd586b-f2ad-4833-aebc-c82010008673" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" />
     </list>
-    <list id="9d806f66-0c34-4a13-8fa4-991a934f5551" name="Default2" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" />
+    <list id="9d806f66-0c34-4a13-8fa4-991a934f5551" name="Default2" comment="config update&#10;dependency update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/restassuredtest/build.gradle" afterPath="$PROJECT_DIR$/restassuredtest/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/restassuredtest/.gradle/" />
     <ignored path="$PROJECT_DIR$/restassuredtest/build/" />
     <ignored path="$PROJECT_DIR$/restassuredtest/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -663,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522772279388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="config update&#10;dependency update">
+      <created>1522778166445</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522778166445</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -721,7 +727,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="config update&#10;dependency update" />
+    <option name="LAST_COMMIT_MESSAGE" value="config update&#10;dependency update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
