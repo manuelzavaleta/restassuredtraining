@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9dd586b-f2ad-4833-aebc-c82010008673" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" afterPath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" />
     </list>
     <list id="9d806f66-0c34-4a13-8fa4-991a934f5551" name="Default2" comment="config update&#10;dependency update" />
     <ignored path="$PROJECT_DIR$/restassuredtest/.gradle/" />
@@ -724,7 +723,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522784141171</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Change to junit to testng">
+      <created>1522784853568</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1522784853568</updated>
+    </task>
+    <task id="LOCAL-00009" summary="complete exercise 1">
+      <created>1522784879782</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1522784879782</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -821,7 +834,8 @@
     <MESSAGE value="config update&#10;dependency update" />
     <MESSAGE value="first exercise" />
     <MESSAGE value="Change to junit to testng" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change to junit to testng" />
+    <MESSAGE value="complete exercise 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete exercise 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
