@@ -1,0 +1,4 @@
+restassuredtest/out/
+restassuredtest/build/
+restassuredtest/.gradle/
+.idea/libraries/
