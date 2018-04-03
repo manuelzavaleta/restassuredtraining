@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dd586b-f2ad-4833-aebc-c82010008673" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_albums.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_comments.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_photos.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_posts.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_todos.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_users.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/restassuredtest/build.gradle" afterPath="$PROJECT_DIR$/restassuredtest/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part1.java" afterPath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part1.java" />
     </list>
     <list id="9d806f66-0c34-4a13-8fa4-991a934f5551" name="Default2" comment="config update&#10;dependency update" />
     <ignored path="$PROJECT_DIR$/restassuredtest/.gradle/" />
@@ -30,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HitEndPointAndPrintTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java">
+      <file leaf-file-name="Part2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="254">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +57,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -234,8 +244,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/restassuredtest" value="4568327027409" />
-        <entry key="$PROJECT_DIR$/restassuredtest/build.gradle" value="3183063813" />
+        <entry key="$PROJECT_DIR$/restassuredtest" value="4568329624949" />
+        <entry key="$PROJECT_DIR$/restassuredtest/build.gradle" value="4002403704" />
         <entry key="$PROJECT_DIR$/restassuredtest/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/restassuredtest/settings.gradle" value="2331018765" />
       </map>
@@ -414,8 +424,20 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrint.java" />
-        <option value="$PROJECT_DIR$/restassuredtest/build.gradle" />
         <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Parte1.java" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/com/backend/schema_posts.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/build.gradle" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/test.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Parte2.java" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_posts.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_comments.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_albums.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_photos.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_todos.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/resources/schema_users.json" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part1.java" />
+        <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part2.java" />
       </list>
     </option>
   </component>
@@ -472,6 +494,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="restassuredtraining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restassuredtest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -494,8 +523,14 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manuel.zavaleta\IdeaProjects\training\restassuredtraining\restassuredtest\src\test\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manuel.zavaleta\IdeaProjects\training\restassuredtraining\restassuredtest\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -510,7 +545,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.HitEndPointAndPrintTest">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -532,7 +567,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="HitEndPointAndPrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Part1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.backend.*" />
@@ -543,7 +578,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.backend" />
-      <option name="MAIN_CLASS_NAME" value="com.backend.HitEndPointAndPrintTest" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.Part1" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -584,7 +619,7 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="HitEndPointAndPrintTest" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+    <configuration name="Part1" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.backend.*" />
@@ -596,7 +631,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.backend" />
-      <option name="MAIN_CLASS_NAME" value="com.backend.HitEndPointAndPrintTest" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.Part1" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -612,6 +647,38 @@
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Part2" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="restassuredtraining_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.backend" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.Part2" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
       <properties />
       <listeners />
@@ -649,13 +716,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HitEndPointAndPrintTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.HitEndPointAndPrintTest" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Part1" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Part1" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Part2" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HitEndPointAndPrintTest" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Part2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Part1" />
       </list>
     </recent_temporary>
   </component>
@@ -737,30 +806,60 @@
       <option name="project" value="LOCAL" />
       <updated>1522784879782</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Change to junit to testng">
+      <created>1522784903895</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1522784903895</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Rename">
+      <created>1522785323728</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522785323728</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Rename">
+      <created>1522785407619</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1522785407619</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 12h 26m 25s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="JUnit" />
+    <history-entry file="Part1 - 2018.04.03 at 16h 12m 34s.xml">
+      <configuration name="Part1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 12h 29m 41s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="JUnit" />
+    <history-entry file="Part2 - 2018.04.03 at 15h 58m 49s.xml">
+      <configuration name="Part2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 12h 29m 50s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="JUnit" />
+    <history-entry file="Part2 - 2018.04.03 at 15h 59m 16s.xml">
+      <configuration name="Part2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 12h 31m 14s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="JUnit" />
+    <history-entry file="Part2 - 2018.04.03 at 15h 59m 54s.xml">
+      <configuration name="Part2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 12h 52m 37s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="JUnit" />
+    <history-entry file="Part2 - 2018.04.03 at 16h 00m 24s.xml">
+      <configuration name="Part2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 14h 35m 05s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="TestNG" />
+    <history-entry file="Part2 - 2018.04.03 at 16h 10m 16s.xml">
+      <configuration name="Part2" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 14h 46m 34s.xml">
-      <configuration name="HitEndPointAndPrintTest" configurationId="TestNG" />
+    <history-entry file="Part2 - 2018.04.03 at 16h 13m 29s.xml">
+      <configuration name="Part2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Parte2 - 2018.04.03 at 15h 47m 25s.xml">
+      <configuration name="Parte2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Parte2 - 2018.04.03 at 15h 47m 47s.xml">
+      <configuration name="Parte2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Parte2 - 2018.04.03 at 15h 58m 01s.xml">
+      <configuration name="Parte2" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -786,7 +885,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -833,9 +932,10 @@
     <MESSAGE value="init" />
     <MESSAGE value="config update&#10;dependency update" />
     <MESSAGE value="first exercise" />
-    <MESSAGE value="Change to junit to testng" />
     <MESSAGE value="complete exercise 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete exercise 1" />
+    <MESSAGE value="Change to junit to testng" />
+    <MESSAGE value="Rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -876,16 +976,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restassuredtest/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="14" column="61" lean-forward="false" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java">
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/test.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/schema_photos.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/schema_comments.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/schema_albums.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/schema_posts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/schema_users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="164" column="1" lean-forward="false" selection-start-line="164" selection-start-column="1" selection-end-line="164" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/resources/schema_todos.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/Part2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

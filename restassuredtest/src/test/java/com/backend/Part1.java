@@ -17,7 +17,6 @@ public class Part1 {
                 {"photos"},
                 {"todos"},
                 {"users"},
-
         };
     }
 
@@ -25,11 +24,10 @@ public class Part1 {
     public void hitEndPointAndPrint(String resource) {
         when()
                 .get("http://jsonplaceholder.typicode.com/" + resource)
-                .then()
+        .then()
                 .statusCode(200)
-                .extract()
-                .response()
-                .prettyPrint();
+                .log()
+                .all();
     }
 
 }

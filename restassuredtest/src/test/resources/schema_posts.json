@@ -1,0 +1,48 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "userId": {
+        "$id": "http://example.com/example.json/items/properties/userId",
+        "type": "integer",
+        "title": "The Userid Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "id": {
+        "$id": "http://example.com/example.json/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "title": {
+        "$id": "http://example.com/example.json/items/properties/title",
+        "type": "string",
+        "title": "The Title Schema ",
+        "default": "",
+        "examples": [
+          "sunt aut facere repellat provident occaecati excepturi optio reprehenderit"
+        ]
+      },
+      "body": {
+        "$id": "http://example.com/example.json/items/properties/body",
+        "type": "string",
+        "title": "The Body Schema ",
+        "default": "",
+        "examples": [
+          "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+        ]
+      }
+    }
+  }
+}

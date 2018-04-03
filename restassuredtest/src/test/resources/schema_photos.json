@@ -1,0 +1,57 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "array",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "items": {
+    "$id": "http://example.com/example.json/items",
+    "type": "object",
+    "properties": {
+      "albumId": {
+        "$id": "http://example.com/example.json/items/properties/albumId",
+        "type": "integer",
+        "title": "The Albumid Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "id": {
+        "$id": "http://example.com/example.json/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema ",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "title": {
+        "$id": "http://example.com/example.json/items/properties/title",
+        "type": "string",
+        "title": "The Title Schema ",
+        "default": "",
+        "examples": [
+          "accusamus beatae ad facilis cum similique qui sunt"
+        ]
+      },
+      "url": {
+        "$id": "http://example.com/example.json/items/properties/url",
+        "type": "string",
+        "title": "The Url Schema ",
+        "default": "",
+        "examples": [
+          "http://placehold.it/600/92c952"
+        ]
+      },
+      "thumbnailUrl": {
+        "$id": "http://example.com/example.json/items/properties/thumbnailUrl",
+        "type": "string",
+        "title": "The Thumbnailurl Schema ",
+        "default": "",
+        "examples": [
+          "http://placehold.it/150/92c952"
+        ]
+      }
+    }
+  }
+}
