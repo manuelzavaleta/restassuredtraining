@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dd586b-f2ad-4833-aebc-c82010008673" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" />
-    </list>
-    <list id="9d806f66-0c34-4a13-8fa4-991a934f5551" name="Default2" comment="config update&#10;dependency update">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/restassuredtest/build.gradle" afterPath="$PROJECT_DIR$/restassuredtest/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" afterPath="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" />
     </list>
+    <list id="9d806f66-0c34-4a13-8fa4-991a934f5551" name="Default2" comment="config update&#10;dependency update" />
     <ignored path="$PROJECT_DIR$/restassuredtest/.gradle/" />
     <ignored path="$PROJECT_DIR$/restassuredtest/build/" />
     <ignored path="$PROJECT_DIR$/restassuredtest/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="HitEndPointAndPrintTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -237,8 +237,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/restassuredtest" value="4568318745045" />
-        <entry key="$PROJECT_DIR$/restassuredtest/build.gradle" value="1855850277" />
+        <entry key="$PROJECT_DIR$/restassuredtest" value="4568327027409" />
+        <entry key="$PROJECT_DIR$/restassuredtest/build.gradle" value="3183063813" />
         <entry key="$PROJECT_DIR$/restassuredtest/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/restassuredtest/settings.gradle" value="2331018765" />
       </map>
@@ -416,8 +416,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/restassuredtest/build.gradle" />
         <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrint.java" />
+        <option value="$PROJECT_DIR$/restassuredtest/build.gradle" />
         <option value="$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java" />
       </list>
     </option>
@@ -513,7 +513,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HitEndPointAndPrintTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -587,6 +587,38 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="HitEndPointAndPrintTest" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="restassuredtraining_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.backend" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.HitEndPointAndPrintTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -620,6 +652,10 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HitEndPointAndPrintTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.HitEndPointAndPrintTest" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JUnit.HitEndPointAndPrintTest" />
@@ -669,7 +705,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522778166445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="config update&#10;dependency update">
+      <created>1522778199896</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522778199896</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first exercise">
+      <created>1522778295252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522778295252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -687,6 +737,9 @@
     </history-entry>
     <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 12h 52m 37s.xml">
       <configuration name="HitEndPointAndPrintTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HitEndPointAndPrintTest - 2018.04.03 at 14h 35m 05s.xml">
+      <configuration name="HitEndPointAndPrintTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -728,7 +781,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="config update&#10;dependency update" />
-    <option name="LAST_COMMIT_MESSAGE" value="config update&#10;dependency update" />
+    <MESSAGE value="first exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="first exercise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -751,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restassuredtest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -775,10 +821,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/restassuredtest/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/restassuredtest/src/test/java/com/backend/HitEndPointAndPrintTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
