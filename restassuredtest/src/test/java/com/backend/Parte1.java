@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.when;
 
-public class HitEndPointAndPrintTest {
+public class Parte1 {
 
     @DataProvider(name = "PerfectCoffeeAnswers")
     public static Object[][] perfectCoffeeAnswers() {
