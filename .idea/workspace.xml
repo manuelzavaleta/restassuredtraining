@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dd586b-f2ad-4833-aebc-c82010008673" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/restassuredtraining.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/restassuredtraining_main.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/restassuredtraining.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/restassuredtest/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/restassuredtest/.gradle/" />
     <ignored path="$PROJECT_DIR$/restassuredtest/build/" />
@@ -69,6 +53,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -591,6 +576,14 @@
       <option name="presentableId" value="Default" />
       <updated>1522770868696</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1522772252183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522772252183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,6 +620,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
