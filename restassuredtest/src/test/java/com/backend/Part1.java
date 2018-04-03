@@ -6,10 +6,10 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.when;
 
-public class Parte1 {
+public class Part1 {
 
-    @DataProvider(name = "PerfectCoffeeAnswers")
-    public static Object[][] perfectCoffeeAnswers() {
+    @DataProvider(name = "actions")
+    public static Object[][] actions() {
         return new Object[][]{
                 {"posts"},
                 {"comments"},
@@ -21,7 +21,7 @@ public class Parte1 {
         };
     }
 
-    @Test(dataProvider = "PerfectCoffeeAnswers")
+    @Test(dataProvider = "actions")
     public void hitEndPointAndPrint(String resource) {
         when()
                 .get("http://jsonplaceholder.typicode.com/" + resource)
