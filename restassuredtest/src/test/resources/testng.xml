@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Softpost Suite">
-    <test name="softpostTests" preserve-order="true" >
+<suite name="Suite">
+    <test name="Tests" preserve-order="true" >
         <packages>
             <package name="com.backend"/>
         </packages>

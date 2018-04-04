@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.hasItems;
 import static org.hamcrest.Matchers.is;
 
 
-public class Part2 {
+public class Part2Test{
 
     @DataProvider(name = "actionsAndSchemas")
     public static Object[][] actionsAndSchemas() {
@@ -28,10 +28,11 @@ public class Part2 {
     @Test(dataProvider = "actionsAndSchemas")
     public void validateSchema(String resources, String schema) {
         given()
+                .baseUri("http://jsonplaceholder.typicode.com")
         .when()
                 .log()
                 .all()
-                .get("http://jsonplaceholder.typicode.com/" + resources)
+                .get(resources)
         .then()
                 .body(matchesJsonSchema(Paths.get("src/test/resources/" + schema).toUri()));
     }
@@ -48,11 +49,12 @@ public class Part2 {
     @Test(dataProvider = "postsUrlParams")
     public void validatePosts(String urlParam, int expectedId, int expectedUserId, String expectedTitle, String expectedBody) {
         given()
+                .baseUri("http://jsonplaceholder.typicode.com")
                 .pathParam("id", urlParam)
         .when()
                 .log()
                 .all()
-                .get("http://jsonplaceholder.typicode.com/posts/{id}")
+                .get("posts/{id}")
         .then()
                 .body("id", is(expectedId))
                 .body("userId", is(expectedUserId))
@@ -73,11 +75,12 @@ public class Part2 {
     @Test(dataProvider = "actions")
     public void implementMethods(String resource, String param, String value) {
         given()
+                .baseUri("http://jsonplaceholder.typicode.com")
                 .queryParam(param, value)
         .when()
                 .log()
                 .all()
-                .get("http://jsonplaceholder.typicode.com/" + resource)
+                .get(resource)
         .then()
                 .log()
                 .all();
@@ -87,10 +90,11 @@ public class Part2 {
     public void extraTest() {
         String findAllById = "findAll {post -> post.id in [20,50,100]}";
         given()
+                .baseUri("http://jsonplaceholder.typicode.com")
         .when()
                 .log()
                 .all()
-                .get("http://jsonplaceholder.typicode.com/posts")
+                .get("posts")
         .then()
                 .body(findAllById + ".id", hasItems(50, 100, 20))
                 .body(findAllById + ".userId", hasItems(2, 5, 10))

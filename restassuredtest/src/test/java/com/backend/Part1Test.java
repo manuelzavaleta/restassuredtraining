@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class Part1 {
+public class Part1Test {
 
     @DataProvider(name = "actions")
     public static Object[][] actions() {
@@ -23,10 +23,11 @@ public class Part1 {
     @Test(dataProvider = "actions")
     public void hitEndPointAndPrint(String resource) {
         given()
+                .baseUri("http://jsonplaceholder.typicode.com")
         .when()
                 .log()
                 .all()
-                .get("http://jsonplaceholder.typicode.com/" + resource)
+                .get(resource)
         .then()
                 .statusCode(200)
                 .log()
