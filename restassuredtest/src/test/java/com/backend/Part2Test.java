@@ -1,5 +1,8 @@
 package com.backend;
 
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -7,8 +10,9 @@ import java.nio.file.Paths;
 
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.hasItems;
-import static org.hamcrest.Matchers.is;
+import static org.testng.Assert.*;
 
 
 public class Part2Test{
@@ -27,14 +31,19 @@ public class Part2Test{
 
     @Test(dataProvider = "actionsAndSchemas")
     public void validateSchema(String resources, String schema) {
-        given()
-                .baseUri("http://jsonplaceholder.typicode.com")
-        .when()
+        Response response =
+                given()
+                    .baseUri("http://jsonplaceholder.typicode.com")
+                .when()
+                        .log()
+                        .all()
+                        .get(resources);
+
+        response.then()
                 .log()
-                .all()
-                .get(resources)
-        .then()
-                .body(matchesJsonSchema(Paths.get("src/test/resources/" + schema).toUri()));
+                .all();
+
+        assertThat(response.body().print(), matchesJsonSchema(Paths.get("src/test/resources/" + schema).toUri()));
     }
 
     @DataProvider(name = "postsUrlParams")
@@ -48,20 +57,25 @@ public class Part2Test{
 
     @Test(dataProvider = "postsUrlParams")
     public void validatePosts(String urlParam, int expectedId, int expectedUserId, String expectedTitle, String expectedBody) {
-        given()
-                .baseUri("http://jsonplaceholder.typicode.com")
-                .pathParam("id", urlParam)
-        .when()
-                .log()
-                .all()
-                .get("posts/{id}")
-        .then()
-                .body("id", is(expectedId))
-                .body("userId", is(expectedUserId))
-                .body("title", is(expectedTitle))
-                .body("body", is(expectedBody))
+        Response response =
+                given()
+                        .baseUri("http://jsonplaceholder.typicode.com")
+                        .pathParam("id", urlParam)
+                .when()
+                        .log()
+                        .all()
+                        .get("posts/{id}");
+
+        response.then()
                 .log()
                 .all();
+
+        JsonPath jsonPath = response.jsonPath();
+
+        assertEquals(jsonPath.getInt("id"), expectedId);
+        assertEquals(jsonPath.getInt("userId"), expectedUserId);
+        assertEquals(jsonPath.getString("title"), expectedTitle);
+        assertEquals(jsonPath.getString("body"), expectedBody);
     }
 
     @DataProvider(name = "actions")
@@ -86,7 +100,7 @@ public class Part2Test{
                 .all();
     }
 
-    @Test()
+    @Test(enabled = false)
     public void extraTest() {
         String findAllById = "findAll {post -> post.id in [20,50,100]}";
         given()
