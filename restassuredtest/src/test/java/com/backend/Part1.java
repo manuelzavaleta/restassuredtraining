@@ -4,7 +4,7 @@ package com.backend;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.when;
+import static io.restassured.RestAssured.given;
 
 public class Part1 {
 
@@ -22,7 +22,10 @@ public class Part1 {
 
     @Test(dataProvider = "actions")
     public void hitEndPointAndPrint(String resource) {
-        when()
+        given()
+        .when()
+                .log()
+                .all()
                 .get("http://jsonplaceholder.typicode.com/" + resource)
         .then()
                 .statusCode(200)
