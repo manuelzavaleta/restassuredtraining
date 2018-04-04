@@ -12,7 +12,10 @@ repositories {
 test {
     useTestNG {
         suites 'src/test/resources/testng.xml'
+        listeners << 'org.testng.reporters.EmailableReporter'
     }
+
+    reports.html.enabled = false
 }
 
 dependencies {
