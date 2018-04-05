@@ -2,12 +2,12 @@ package com.backend;
 
 
 import io.restassured.response.Response;
-import org.testng.Assert;
+import org.apache.http.HttpStatus;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-import static org.testng.Assert.*;
+import static org.testng.Assert.assertEquals;
 
 public class Part1Test {
 
@@ -38,7 +38,7 @@ public class Part1Test {
                 .log()
                 .all();
 
-        assertEquals(response.statusCode(), 200);
+        assertEquals(response.statusCode(), HttpStatus.SC_OK);
     }
 
 }
