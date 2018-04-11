@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/restassuredtraining.iml" filepath="$PROJECT_DIR$/.idea/modules/restassuredtraining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restassuredtraining.iml" filepath="$PROJECT_DIR$/restassuredtraining.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restassuredtraining_main.iml" filepath="$PROJECT_DIR$/.idea/modules/restassuredtraining_main.iml" group="restassuredtraining" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" filepath="$PROJECT_DIR$/.idea/modules/restassuredtraining_test.iml" group="restassuredtraining" />
     </modules>
