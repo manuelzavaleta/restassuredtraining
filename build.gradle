@@ -16,6 +16,9 @@ test {
     }
 
     reports.html.enabled = false
+    reports.junitXml.enabled = true
+
+    reports.junitXml.setDestination(file("$buildDir/target/junit/xml"))
 }
 
 dependencies {
